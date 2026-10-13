@@ -1,0 +1,12 @@
+Series length=1000 | window=20 | train samples=784 test samples=196
+Trainable parameters: 305
+Epoch   1/100  train MSE = 0.04852
+Epoch  20/100  train MSE = 0.01751
+Epoch  40/100  train MSE = 0.01812
+Epoch  60/100  train MSE = 0.02621
+Epoch  80/100  train MSE = 0.01473
+Epoch 100/100  train MSE = 0.01629
+
+Test RMSE (RNN)             : 0.1228
+Test RMSE (naive last value): 0.1534
+R2 score (RNN)              : 0.9767

@@ -1,0 +1,15 @@
+Gradient check max error: 1.25e-11 (backprop is correct if this is tiny)
+Vocabulary=34 words | sentences=800 | train=640 test=160
+Trainable parameters: 2401
+Epoch  1/30  train_acc=0.9453  test_acc=0.9125
+Epoch  5/30  train_acc=0.9359  test_acc=0.9563
+Epoch 10/30  train_acc=1.0000  test_acc=1.0000
+Epoch 15/30  train_acc=1.0000  test_acc=1.0000
+Epoch 20/30  train_acc=1.0000  test_acc=1.0000
+Epoch 25/30  train_acc=1.0000  test_acc=1.0000
+Epoch 30/30  train_acc=1.0000  test_acc=1.0000
+
+Final Test Accuracy: 100.00%
+'the movie was not good and really boring' -> Negative (0.01)
+'this film was really amazing and the story' -> Positive (1.00)
+'the plot was not bad but i felt it' -> Positive (1.00)
